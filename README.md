@@ -25,6 +25,9 @@ HARMONOGRAM PRÁCE:
 6) Vytvoření prezentace
 _________________________________________________________________________________________________________________
 
+INSTALACE OPENCV DO LINUXU:
+
+-http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html
 
 
 Hlavní myšlenka tohoto projektu je oddělení pozadí od pohybujících se objektů pomocí MOG(shadow detecting)
