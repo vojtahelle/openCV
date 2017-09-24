@@ -9,6 +9,17 @@ Dalším krokem bude studování problematiky a vyhledávání informací o dan�
 -Domovská stránka OPENCV
 http://opencv.org/
 
+-YOUTUBE PLAYLIST TUTORIALS
+https://www.youtube.com/watch?v=LvUcdfjYU78&list=PLSVkHwG9fSD67HB0uAYZ6GTRYcNgCN0Ti
+
+https://www.youtube.com/watch?v=Y3ac5rFMNZ0&t=218s
+https://github.com/MicrocontrollersAndMore/OpenCV_3_Car_Counting_Cpp
+
+
+
+
+
+
 -PYTHON TUTORIAL OPENCV 
 http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html
 
