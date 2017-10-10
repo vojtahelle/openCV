@@ -236,4 +236,4 @@ Acknowledgements
 
 A huge thanks goes to Naotoshi Seo, who wrote the mergevec.cpp and createsamples.cpp tools and released them under the MIT licencse. His notes on OpenCV Haar training were a huge help. Thank you, Naotoshi!
 
-
+https://github.com/MicrocontrollersAndMore/OpenCV_3_License_Plate_Recognition_Cpp
