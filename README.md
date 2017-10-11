@@ -123,3 +123,10 @@ main()
 
 
 https://github.com/MicrocontrollersAndMore/OpenCV_3_License_Plate_Recognition_Cpp
+
+
+
+SMILE DETECTION
+
+https://aminesehili.wordpress.com/2015/09/20/smile-detection-with-opencv-the-nose-trick/
+https://github.com/amsehili/fnsmile
