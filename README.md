@@ -365,5 +365,7 @@ if __name__ == "__main__":
 
 
 
+
+https://www.youtube.com/watch?v=hN4lULtjzzE
 https://github.com/cmusatyalab/openface
 
