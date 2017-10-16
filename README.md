@@ -374,3 +374,111 @@ https://www.youtube.com/watch?v=mXfQTBclLqE
 
 
 https://github.com/cmusatyalab/openface/tree/master/openface
+
+
+
+Commands For installing PIP
+
+1 $ sudo apt-get install python-setuptools python-dev build-  essential
+2 $ sudo easy_install pip
+3 $ sudo pip install --upgrade virtualenv
+
+To Install Packages via PIP
+
+1 $ sudo pip install numpy
+2 $ sudo pip install cython
+3 $ sudo pip install scipy
+4 $ sudo pip install scikit-learn
+5 $ sudo pip install scikit-image
+6 $ sudo pip install pandas
+
+
+
+
+$ sudo apt-get install build-essential
+$ sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+$ sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+
+changing the directory and downloading opencv
+
+$ cd /usr/src
+$ sudo git clone https://github.com/opencv/opencv.git
+$ cd ~/opencv
+$ sudo mkdir release
+$ cd release
+$ sudo cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
+$ sudo make
+$ sudo make install
+
+$ pkg-config --modversion opencv
+
+
+
+
+
+$ mkdir -p ~/src
+$ cd ~/src
+$ tar xf dlib-18.16.tar.bz2
+$ cd dlib-18.16/python_examples
+$ mkdir build
+
+!--before proceeding further chk for the boost error--!
+For Boost Installation
+to fix error boost error
+$ wget -O boost_1_62_0.tar.gz http://sourceforge.net/projects/boost...
+$ tar xzvf boost_1_62_0.tar.gz
+$ cd boost_1_62_0/
+$ sudo apt-get update
+$ sudo apt-get install build-essential g++ python-dev autotools-dev libicu-dev build-essential libbz2-dev libboost-all-dev
+
+
+$ ./bootstrap.sh --prefix=/usr/local
+
+Then build it with:
+
+$ ./b2
+and eventually install it:
+
+$ sudo ./b2 install
+
+!--Now Continue Further--!
+
+After boost, Accessing the directory 
+
+$ cd ~/src
+$ cd dlib-18.16/python_examples
+$ cd build
+
+now the leftovers commands
+
+$ cmake ../../tools/python
+$ cmake --build . --config Release
+$ sudo cp dlib.so /usr/local/lib/python2.7/dist-packages
+
+
+$ git clone https://github.com/torch/distro.git ~/torch --recursive
+$ cd ~/torch
+$ bash install-deps
+$ ./install.sh
+
+$ sudo apt-get install luarocks
+TORCH_LUA_VERSION=LUA52 ./install.sh
+
+--For permission issues or errors with luarocks type the following commands--
+
+$ sudo chmod -R 777 ~/opencv
+$ sudo chmod -R 777 ~/torch
+
+--For permission issues --
+
+packages to download via luarocks for Torch
+
+$ luarocks install dpnn 
+$ luarocks install nn 
+$ luarocks install optim 
+$ luarocks install csvigo 
+$ luarocks install cutorch and cunn (only with CUDA) 
+$ luarocks install fblualib (only for training a DNN) 
+$ luarocks install tds (only for training a DNN) 
+$ luarocks install torchx (only for training a DNN) 
+$ luarocks install optnet (optional, only for training a DNN)
